@@ -3,7 +3,8 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to tedred</h1>
+      <h1 className="text-bold">Welcome to tedred</h1>
+      
       <Image src="./images/my-image.jpg" alt="My Image" width={500} height={500} />
     </div>
   );
